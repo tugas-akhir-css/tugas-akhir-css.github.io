@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Standart META -->
+  <meta charset="utp-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <!-- Title & Logo -->
+  <title>Tugas Akhir CSS | Niomic</title>
+  <link rel="icon" type="icon/png" href="images/niomic_logo.png">
+  <!-- Description -->
+  <meta name="author" content="Andika Andriana">
+  <meta name="description" content="Tugas Akhir CSS dari Niomic">
+  <!-- CSS Binding -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav id="navCustom" class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <div class="navbar-brand-name">
+          <a class="navbar-brand" href="index.html">
+            <img class="d-inline-block align-top" src="images/kopi-tasikmalaya.png" width="190" height="50" alt="Logo Kopi Tasikmalaya">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarToggler01" class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+            <li class=" nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="pesan.html">Cara Pemesanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="tentang.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay"></div>
+          <img class="d-block w-100" src="images/slider5.jpg" height="500px" alt="slide">
+          <div class="carousel-caption d-none d-md-block carousel-CapCostum">
+            <h4 class="display-4">
+              Cara Pemesanan Produk
+            </h4>
+            <p>Kepuasan Anda adalah prioritas utama kami.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="container marketing">
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+
+        <div class="col-md-7">
+          <h2 class="featurette-heading">1. Pilih Produk</h2>
+          <p class="lead">Silahkan pilih produk yang Anda inginkan, Semuanya tersedia pada halaman katalog kami (produk).</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/pesan1.png" width="300px" height="300px" alt="pesan1" class="float-right">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">2. Konfirmasi Pembayaran</h2>
+          <p class="lead">Setelah mendapatkan produk yang Anda inginkan, Silahkan lakukan pembayaran untuk kemudian dikonfirmasi melalui kontak kami (telp/WA) +62-821-XXXX-XXXX.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="images/pesan2.png" width="300px" height="300px" alt="pesan2" class="float-left">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+
+        <div class="col-md-7">
+          <h2 class="featurette-heading">3. Dapatkan Produk Anda</h2>
+          <p class="lead">Langkah terakhir, Setelah pesanan Anda telah dikonfirmasi. Anda akan diinformasikan nomor resi dari sebuah jasa pengiriman untuk mengantar produk sampai kerumah Anda.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/pesan3.png" width="300px" height="300px" alt="pesan3" class="float-right">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <hr />
+  <footer class="container sticky-bottom text-center">
+    <p>&copy; 2019 Andika Andriana, Tugas Akhir CSS. &middot; <a href="http://www.niomic.com">Niomic | Online Coding Bootcamp</a></p>
+  </footer>
+
+  <!-- Javascript  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navCustom").style.top = "0";
+      } else {
+        document.getElementById("navCustom").style.top = "-500px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+</body>
+
+</html>

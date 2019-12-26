@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* carousel fullscreen */
+.carousel-fullscreen .carousel-inner .carousel-item {
+  height: 100vh;
+  min-height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* carousel fullscreen - vertically centered caption*/
+.carousel-fullscreen .carousel-caption {
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+
+/* overlay for better readibility of the caption  */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  transition: all 0.2s ease-out;
+}
+
+.carousel .carousel-item {
+  transition-duration: 1.5s;
+}
+
+/* demo typography */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .display-1 {
+    font-size: 3.3rem;
+  }
+
+  .display-2 {
+    font-size: 2.5rem;
+  }
+
+  .display-3 {
+    font-size: 2rem;
+  }
+}
+
+.navbar-brand-name> {
+  display: inline-block;
+  float: left;
+}
+
+.navbar-brand-name>img {
+  display: inline-block;
+  float: left;
+  padding: 0 15px 0 0;
+}
+
+#navCustom {
+  position: fixed;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Stay on top */
+  width: 100%;
+  /* Full width */
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+}
+
+#navCustom a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navCustom a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.carousel-CapCostum {
+  margin: 0px 0px 100px 0px;
+}
+
+.jumbo-custom {
+  margin: 80px 10px 20px 10px;
+}
+
+.col1 {
+  margin: 50px 0px 0px 0px;
+}
